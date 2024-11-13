@@ -1,0 +1,73 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.logo1{
+    font-weight: bolder;
+    
+}
+.background {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/backgroundImg.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Centered, blurred overlay div */
+  .center-div {
+    width: 90%; /* Adjust width as needed */
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Blurring effect */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+
+  /* Styling for form elements */
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  /* Button styling */
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+
+  .lead{
+    color: white;
+    background-color: #0a80e7;
+  }
