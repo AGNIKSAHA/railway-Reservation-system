@@ -1,6 +1,23 @@
 // import Form from "./component/Form";
 
 const MidPart = () => {
+  // const [contact,setContact]=userState({
+  //   from_station:"",
+  //   to_station:"",
+  //   journey_date:"",
+  //   classes:""
+  // });
+  
+  // const handleInput=(e)=>{
+  //   const name=e.target.name;
+  //   const value=e.target.value;
+
+  //   setContact((prev)=>({
+  //     ...prev,
+  //     [name]:value,
+  //   }));
+  // };
+
   return (
     
   
@@ -14,22 +31,22 @@ const MidPart = () => {
         
         <div class="form-group">
           <label for="from-station">From:</label>
-          <input type="text" id="from-station" name="from-station" placeholder="Starting station" required/>
+          <input type="text" id="from-station"  name="from-station" placeholder="Starting station" required/>
         </div>
 
         <div class="form-group">
           <label for="to-station">To:</label>
-          <input type="text" id="to-station" name="to-station" placeholder="Destination station" required/>
+          <input type="text" id="to-station" name="to-station"  placeholder="Destination station" required/>
         </div>
 
         <div class="form-group">
           <label for="journey-date">Journey Date:</label>
-          <input type="date" id="journey-date" name="journey-date" required/>
+          <input type="date" id="journey-date"   name="journey-date" required/>
         </div>
 
         <div class="form-group">
           <label for="class">Class:</label>
-          <select id="class" name="class">
+          <select id="class" name="class"  >
             <option value="sleeper">Sleeper</option>
             <option value="3AC">3rd AC</option>
             <option value="2AC">2nd AC</option>

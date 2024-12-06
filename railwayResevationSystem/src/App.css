@@ -1,6 +1,7 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    overflow-x: hidden;
 }
 .logo1{
     font-weight: bolder;
